@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../Assets/Fonts/icomoon.eot?g1ypb');
+  src:  url('../Assets/Fonts/icomoon.eot?g1ypb#iefix') format('embedded-opentype'),
+    url('../Assets/Fonts/icomoon.ttf?g1ypb') format('truetype'),
+    url('../Assets/Fonts/icomoon.woff?g1ypb') format('woff'),
+    url('../Assets/Fonts/icomoon.svg?g1ypb#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-letter-T:before {
+  content: "\e901";
+  font-size: 80px;
+  color: #64ffda;
+}
+.icon-t-solid:before {
+  content: "\e900";
+}
+.icon-envelope-solid:before {
+  content: "\e902";
+}
+.icon-twitter-brands:before {
+  content: "\e903";
+  font-size: 20px;
+}
+.icon-phone-solid:before {
+  content: "\e904";
+  font-size: 20px;
+}
+.icon-linkedin:before {
+  content: "\e905";
+  font-size: 20px;
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}
